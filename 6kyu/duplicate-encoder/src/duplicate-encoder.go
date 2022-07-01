@@ -1,13 +1,8 @@
-package main
+package src
 
 import (
-	"fmt"
 	"strings"
 )
-
-func main() {
-	fmt.Println("Hello Go!")
-}
 
 func DuplicateEncode(word string) string {
 	word = strings.ToLower(word)
